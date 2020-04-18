@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">REGRESA AL FUTURO</string>
+    <string name="btn_inicio">SING IN</string>
+    <string name="btn_registro">SING UP</string>
+    <string name="texto_inicio">READY TO BACK TO THE FUTURE?</string>
+    <string name="inicio_sesion">LOGIN</string>
+    <string name="txt_btn_play">PLAY</string>
+    <string name="txt_btn_pause">PAUSE</string>
+    <string name="txt_btn_stop">STOP</string>
+    <string name="registro_apellido">Last Name</string>
+    <string name="registo_usuario">User</string>
+    <string name="registo_contraseña">Password</string>
+    <string name="texto_bienvenida">Wellcome to the Miguel\'s app</string>
+    <string name="toast_registro">Successfully registered</string>
+    <string name="toast_registro_incorrecto">Wrong user/password</string>
+    <string name="registo_nombre">Name</string>
+    <string name="registo_email">e-mail</string>
+</resources>

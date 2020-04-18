@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo68"
+    tools:context=".registro">
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/gris"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/registo_nombre"
+        android:textColorHint="@color/gris"
+        android:textColor="@color/gris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <EditText
+        android:id="@+id/txt_apellido"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:backgroundTint="@color/gris"
+        android:textColor="@color/gris"
+        android:inputType="textPersonName"
+        android:hint="@string/registro_apellido"
+        android:textColorHint="@color/gris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombre"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/txt_usuario"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/gris"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/registo_usuario"
+        android:textColorHint="@color/gris"
+        android:textColor="@color/gris"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_apellido" />
+
+    <EditText
+        android:id="@+id/txt_contraseña"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/gris"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/registo_contraseña"
+        android:textColorHint="@color/gris"
+        android:textColor="@color/gris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_mail"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <EditText
+        android:id="@+id/txt_mail"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:backgroundTint="@color/gris"
+        android:textColor="@color/gris"
+        android:hint="@string/registo_email"
+        android:textColorHint="@color/gris"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_usuario"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <Button
+        android:id="@+id/button_registro"
+        android:layout_width="336dp"
+        android:layout_height="30dp"
+        android:background="@drawable/boton_redondeado"
+
+        android:text="@string/btn_registro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_contraseña"
+        app:layout_constraintVertical_bias="0.287" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

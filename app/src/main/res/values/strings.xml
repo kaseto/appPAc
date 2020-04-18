@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">REGRESA AL FUTURO</string>
+    <string name="btn_inicio">INICIAR SESIÓN</string>
+    <string name="btn_registro">REGISTRO</string>
+    <string name="registro_apellido">Apellido</string>
+    <string name="registo_usuario">Usuario</string>
+    <string name="registo_contraseña">Contraseña</string>
+    <string name="texto_inicio">¿PREPARADO PARA VIAJAR AL FUTURO?</string>
+    <string name="texto_bienvenida">Bienvenidos a la app de Miguel Perales</string>
+    <string name="inicio_sesion">INICIA SESIÓN</string>
+    <string name="txt_btn_play">PLAY</string>
+    <string name="txt_btn_pause">PAUSE</string>
+    <string name="txt_btn_stop">STOP</string>
+    <string name="toast_registro">Se ha logueado correctamente</string>
+    <string name="toast_registro_incorrecto">Usuario y/o contraseña incorrectos</string>
+    <string name="registo_nombre">Nombre</string>
+    <string name="registo_email">e-mail</string>
+
+</resources>

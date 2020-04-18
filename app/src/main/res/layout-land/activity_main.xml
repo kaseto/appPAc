@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo68"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/boton_inicio"
+        android:layout_width="215dp"
+        android:layout_height="50dp"
+        android:layout_margin="40dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/boton_redondeado"
+        android:onClick="inicio"
+        android:text="@string/btn_inicio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/boton_registro"
+        android:layout_width="215dp"
+        android:layout_height="50dp"
+        android:layout_margin="40dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/boton_redondeado"
+        android:onClick="registro"
+        android:text="@string/btn_registro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="490dp"
+        android:layout_height="61dp"
+        android:fontFamily="@font/orbitron"
+        android:text="@string/texto_inicio"
+        android:textAlignment="center"
+        android:textColor="@color/gris"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.291" />
+</androidx.constraintlayout.widget.ConstraintLayout>
